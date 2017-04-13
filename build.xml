@@ -10,6 +10,7 @@
       <path refid = "classpath.base" />
    </path>
    <target name = "clean" >
+	  <mkdir dir="${testdir}"/>
       <delete verbose = "${full-compile}">
          <fileset dir = "${testdir}" includes = "**/*.class" />
       </delete>
