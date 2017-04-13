@@ -1,0 +1,16 @@
+Testsuite: TestMessageUtil
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.153 sec
+------------- Standard Output ---------------
+Inside testSalutationMessage()
+Hi!1Robert
+Inside testPrintMessage()
+Robert
+------------- ---------------- ---------------
+
+Testcase: testSalutationMessage took 0.01 sec
+	FAILED
+expected:<Hi![]Robert> but was:<Hi![1]Robert>
+junit.framework.AssertionFailedError: expected:<Hi![]Robert> but was:<Hi![1]Robert>
+	at TestMessageUtil.testSalutationMessage(Unknown Source)
+
+Testcase: testPrintMessage took 0.001 sec
